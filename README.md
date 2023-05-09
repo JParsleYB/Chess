@@ -6,7 +6,7 @@
     - 
 
 * functionable chessboard 
-    - [ ] recreating a chessboard look
+    - [x] recreating a chessboard look
     - [ ] selecting squares
 
 * queue
