@@ -1,6 +1,6 @@
 # My Chess
 
-PLAN:
+## PLAN:
 
 * menu
     - 
