@@ -15,6 +15,7 @@ PLAN:
     - automatically stopping the clock after the move and unlocking the possibility of the opponent's move
 
 * chess pieces and moves
+
     All:
     - blocking movement if another friendly piece is within range of the piece
 
