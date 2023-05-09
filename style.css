@@ -1,0 +1,34 @@
+.black {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(50, 50, 50);
+}
+
+.white {
+    width: 100px;
+    height: 100px;
+    background-color: blanchedalmond;
+}
+
+.frame {
+    border: solid 10px black;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    height: 800px;
+    width: 800px;
+}
+
+.chessboard {
+    width: 800px;
+    height: 800px;
+}
+
+.rows {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#e2 {
+    background-color: blue;
+}
