@@ -4,7 +4,7 @@
 
 * menu
     - [ ] play with computer
-    - [ ] play 
+    - [ ] play online
     - [ ] debug mode
 
 * functionable chessboard 
