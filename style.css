@@ -2,12 +2,14 @@
     width: 100px;
     height: 100px;
     background-color: rgb(50, 50, 50);
+    color: blanchedalmond;
 }
 
 .white {
     width: 100px;
     height: 100px;
     background-color: blanchedalmond;
+    color: rgb(50, 50, 50);
 }
 
 .frame {
@@ -19,9 +21,13 @@
     width: 800px;
 }
 
-.chessboard {
+.chessboardComponents {
     width: 800px;
     height: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .rows {
@@ -30,5 +36,168 @@
 }
 
 #e2 {
-    background-color: blue;
+    background-color: lightblue;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letters {
+    word-spacing:85.5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+    width: 820px;
+    height: 20px;
+}
+
+.blankAndNums {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.nums {
+    display:flex;
+    flex-direction: column-reverse;
+    line-height: 68px;
+    width: 20px;
+    height: 820px;
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.blank {
+    width: 20px;
+    height: 20px;
+    background-color: bisque;
+}
+
+.chessboardAndLetters {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    height: 1050px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#a1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#b1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#c1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#d1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#e1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#f1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#g1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#h1 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#a2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.square .a {
+    padding-top: 75px;
+    padding-left: 30px;
+}
+
+.square .b {
+    padding-top: 75px;
+    padding-left: 40px;
+}
+
+.square .c {
+    padding-top: 75px;
+    padding-left: 40px;
+}
+
+.square .d {
+    padding-top: 75px;
+    padding-left: 40px;
+}
+
+.square .e {
+    padding-top: 75px;
+    padding-left: 40px;
+}
+
+.square .f {
+    padding-top: 75px;
+    padding-left: 40px;
+}
+
+.square .g {
+    padding-top: 75px;
+    padding-left: 40px;
+}
+
+.square .h {
+    padding-top: 75px;
+    padding-left: 40px;
+}
+
+.square .two {
+    padding-bottom: 81px;
+    padding-right: 40px;
+}
+
+#a1 .one {
+    padding-right:40px;
+    padding-bottom:81px;
+}
+
+#a2 .blankA {
+    padding-right:40px;
+    padding-bottom:81px;
+}
+
+.blankOne {
+    width: 40px;
+}
+
+.blankA {
+    width: 40px;
 }
