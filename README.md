@@ -1,13 +1,13 @@
 # My Chess
 
-\## PLAN:
+## PLAN:
 
 * menu
     - [ ] play
     - [ ] play
 
 * functionable chessboard 
-    - [x] recreating a chessboard look
+    - ✅ recreating a chessboard look
     - [ ] selecting squares
 
 * queue
