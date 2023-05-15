@@ -7,7 +7,7 @@
     - [ ] play
 
 * functionable chessboard 
-    - ✅ recreating a chessboard look
+    ✅ recreating a chessboard look
     - [ ] selecting squares
 
 * queue
