@@ -3,8 +3,9 @@
 ## PLAN:
 
 * menu
-    - [ ] play
-    - [ ] play
+    - [ ] play with computer
+    - [ ] play 
+    - [ ] debug mode
 
 * functionable chessboard 
     - ✅ recreating a chessboard look
