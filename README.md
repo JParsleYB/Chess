@@ -1,7 +1,7 @@
 # My Chess
 
 ## PLAN:
-
+```[tasklist]
 * menu
     - [ ] play
     - [ ] play
@@ -42,3 +42,4 @@
     - [ ] moves only forward
     - [ ] when any piece of the opponent stands diagonally in front of the pawn, it allows you to capture the piece
     - [ ] blocking forward movement when facing a piece
+```
