@@ -1,5 +1,7 @@
 # My Chess
 
+[my site](https://jparsleyb.github.io/Chess/)
+
 ## PLAN:
 
 * menu
