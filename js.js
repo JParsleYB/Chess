@@ -40,7 +40,10 @@ window.addEventListener("DOMContentLoaded", function() {
   
     pieces.forEach(function(piece) {
       piece.addEventListener("click", function() {
-        resetSelection();
+        if (this.classList.contains("selected")) {
+            resetSelection();
+          } else {
+            resetSelection();
   
         piece.classList.add("selected");
         selectedPieceId = piece.id;
@@ -49,6 +52,7 @@ window.addEventListener("DOMContentLoaded", function() {
   
         var piecePosition = getPiecePosition(selectedPieceId);
         console.log("Pozycja figury:", piecePosition);
+          }
       });
     });
   
@@ -75,7 +79,39 @@ window.addEventListener("DOMContentLoaded", function() {
       });
       selectedPieceId = null;
     }
+
+    setPieceCoords("wk", coordinates["d1"]);
+    setPieceCoords("bk", coordinates["d8"]);
+    setPieceCoords("wq", coordinates["e1"]);
+    setPieceCoords("bq", coordinates["e8"]);
+    setPieceCoords("wb", coordinates["c1"]);
+    setPieceCoords("bb", coordinates["c8"]);
+    setPieceCoords("wb2", coordinates["f1"]);
+    setPieceCoords("bb2", coordinates["f8"]);
+    setPieceCoords("wkn", coordinates["b1"]);
+    setPieceCoords("bkn", coordinates["b8"]);
+    setPieceCoords("wkn2", coordinates["g1"]);
+    setPieceCoords("bkn2", coordinates["g8"]);
+    setPieceCoords("wr", coordinates["a1"]);
+    setPieceCoords("br", coordinates["a8"]);
+    setPieceCoords("wr2", coordinates["h1"]);
+    setPieceCoords("br2", coordinates["h8"]);
+    setPieceCoords("wp", coordinates["a2"]);
+    setPieceCoords("wp2", coordinates["b2"]);
+    setPieceCoords("wp3", coordinates["c2"]);
+    setPieceCoords("wp4", coordinates["d2"]);
+    setPieceCoords("wp5", coordinates["e2"]);
+    setPieceCoords("wp6", coordinates["f2"]);
+    setPieceCoords("wp7", coordinates["g2"]);
+    setPieceCoords("wp8", coordinates["h2"]);
+    setPieceCoords("bp", coordinates["a7"]);
+    setPieceCoords("bp2", coordinates["b7"]);
+    setPieceCoords("bp3", coordinates["c7"]);
+    setPieceCoords("bp4", coordinates["d7"]);
+    setPieceCoords("bp5", coordinates["e7"]);
+    setPieceCoords("bp6", coordinates["f7"]);
+    setPieceCoords("bp7", coordinates["g7"]);
+    setPieceCoords("bp8", coordinates["h7"]);
+
   });
-  
-  
   
