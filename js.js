@@ -1,13 +1,4 @@
 window.addEventListener("DOMContentLoaded", function() {
-    var myPiece = document.getElementById("bk");
-    var rect = myPiece.getBoundingClientRect();
-    var x = rect.left;
-    var y = rect.top;
-
-    console.log("Współrzędne figury: x =", x, ", y =", y);
-  });
-
-  window.addEventListener("DOMContentLoaded", function() {
     var squares = document.querySelectorAll(".square");
     var pieces = document.querySelectorAll(".piece");
     var selectedPieceId = null;
@@ -55,7 +46,12 @@ window.addEventListener("DOMContentLoaded", function() {
           }
       });
     });
+
+// XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
   
+
+// XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
     console.log(coordinates);
   
     function setPieceCoords(pieceId, coords) {
