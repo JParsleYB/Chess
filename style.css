@@ -1,37 +1,38 @@
 .black {
-    width: 100px;
-    height: 100px;
+    width: 10vh;
+    height: 10vh;
     background-color: rgb(215, 144, 3);
     color: blanchedalmond;
     font-weight: 800;
 }
 
 .white {
-    width: 100px;
-    height: 100px;
+    width: 10vh;
+    height: 10vh;
     background-color: blanchedalmond;
-    color: rgb(50, 50, 50);
+    color: rgb(215, 144, 3);
     font-weight: 800;
 }
 
 .frame {
-    border: solid 10px black;
+    border: solid 1vh black;
     display: flex;
     flex-direction: column-reverse;
     flex-wrap: wrap;
-    height: 800px;
-    width: 800px;
+    height: 80vh;
+    width: 80vh;
 }
+
 
 piece {
     position: absolute;
-    top: 0;
-    left: 0;
-    width:100px;
-    height:100px;
+    top: 50%;
+    left: 50%;
+    width:10vh;
+    height:10vh;
     background-size: cover;
-    z-index: 2;
     cursor: pointer;
+    display: flex;
 }
 
 .selected {
@@ -123,8 +124,8 @@ piece {
 }
 
 .chessboardComponents {
-    width: 800px;
-    height: 800px;
+    width: 80vh;
+    height: 80vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -148,8 +149,8 @@ piece {
 }
 
 .blank {
-    width: 20px;
-    height: 20px;
+    width: 2vh;
+    height: 2vh;
     background-color: bisque;
 }
 
@@ -161,7 +162,7 @@ piece {
 }
 
 .main {
-    padding-top: 100px;
+    padding-top: 10vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -174,35 +175,35 @@ piece {
 }
 
 .square .a {
-    padding-top: 75px;
-    padding-left: 30px;
+    padding-top: 7.5vh;
+    padding-left: 3vh;
 }
 
 .square .b, .c, .d, .e, .f, .g, .h {
-    padding-top: 75px;
-    padding-left: 40px;
+    padding-top: 7.5vh;
+    padding-left: 4vh;
 }
 
 .square .two, .three, .four, .five, .six, .seven, .eight {
-    padding-bottom: 75px;
-    padding-right: 40px;
+    padding-bottom: 7.5vh;
+    padding-right: 4vh;
 }
 
 #a1 .one {
-    padding-right:40px;
-    padding-bottom:75px;
+    padding-right:4vh;
+    padding-bottom:7.5vh;
 }
 
 .square .blankA {
-    padding-left: 40px;
+    padding-left: 4vh;
 }
 
 .blankOne {
-    width: 40px;
+    width: 4vh;
 }
 
 footer {
-    height: 40px;
+    height: 4vh;
     display: flex;
     align-items: center;
     justify-content: center;
